@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8"/>
+    <title>JustDoIt_CMS</title>
+    <link rel="stylesheet" href="./css/marker.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="bigBox">
+    <div id="headerContent"></div>
+    <div id="bodyContent">
+        <div id="leftMenu"></div>
+        <div id="rightContent">
+            <div id="centerContent"></div>
+            <div id="rightmostContent"></div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1-rc2.min.js"></script>
+<script src="js/docBase.js"></script>
+<script>
+    $(function () {
+        init();
+
+        function init() {
+            setLeftMenu();
+            setHeaderContent();
+        }
+
+        //设置左侧菜单
+        function setLeftMenu() {
+            getMd("leftMenu.md", function (parse) {
+                $("#leftMenu").html(parse);
+                //跳转拦截
+                $("#leftMenu a").click(function () {
+                    let attr = $(this).attr("href");
+                    setCenterContent(attr);
+                    return false;
+                })
+            });
+        }
+
+        //设置中间内容的显示
+        function setCenterContent(mdName) {
+            getMd(mdName, function (parse) {
+                $("#centerContent").html(parse);
+            })
+        }
+
+        //设置头部区域
+        function setHeaderContent() {
+            getMd("header.md", function (parse) {
+                $("#headerContent").html(parse);
+            })
+        }
+    })
+
+</script>
+</html>
