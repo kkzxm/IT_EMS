@@ -4,7 +4,10 @@
 2. [产品定位](proTar/proTar.md)
 
 
-3. [主要功能](mainFun/mainFun.md)
+3. [支持平台](platform/platform.md)
+
+
+4. [主要功能](mainFun/mainFun.md)
 
 
 4. [模块划分](modelDes/modelDes.md)

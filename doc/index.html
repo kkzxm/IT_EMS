@@ -30,14 +30,28 @@
             setHeaderContent();
         }
 
+        //设置头部区域
+        function setHeaderContent() {
+            getMd("header.md", function (parse) {
+                $("#headerContent").html(parse);
+            })
+        }
+
+        //region 右边
         //设置左侧菜单
         function setLeftMenu() {
             getMd("leftMenu.md", function (parse) {
                 $("#leftMenu").html(parse);
-                //跳转拦截
+                /*
+                跳转拦截,
+                将拦截到的.md链接转移到 中间内容块 去,
+                还要将最右边的 #rightmostContent 清空
+                 */
                 $("#leftMenu a").click(function () {
                     let attr = $(this).attr("href");
+                    window.thisBaseAttr = attr.split("/")[0];
                     setCenterContent(attr);
+                    $("#rightmostContent").html("")
                     return false;
                 })
             });
@@ -47,15 +61,33 @@
         function setCenterContent(mdName) {
             getMd(mdName, function (parse) {
                 $("#centerContent").html(parse);
+                /*
+                跳转拦截,
+                将拦截到的.md链接转移到 最右边的内容块 去
+                 */
+                getMd(mdName, function (parse) {
+                    $("#centerContent").html(parse);
+                    /*
+                    跳转拦截,
+                    将拦截到的.md链接转移到 最右边的内容块 去
+                     */
+                    $("#centerContent a").click(function () {
+                        let attr = $(this).attr("href");
+                        setRightmostContent(thisBaseAttr+"/"+attr);
+                        return false;
+                    });
+                })
             })
         }
 
-        //设置头部区域
-        function setHeaderContent() {
-            getMd("header.md", function (parse) {
-                $("#headerContent").html(parse);
+        //设置最右边的内容块
+        function setRightmostContent(mdName) {
+            getMd(mdName, function (parse) {
+                $("#rightmostContent").html(parse);
             })
         }
+
+        //endregion
     })
 
 </script>
