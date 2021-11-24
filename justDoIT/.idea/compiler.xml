@@ -13,24 +13,30 @@
         <module name="project" />
         <module name="run" />
         <module name="onlineChat" />
+        <module name="model" />
         <module name="technology" />
         <module name="employees" />
         <module name="department" />
         <module name="interview" />
-        <module name="modules" />
         <module name="flow" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api_service" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api_service" options="-parameters" />
+      <module name="application" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="conference" options="-parameters" />
       <module name="department" options="-parameters" />
       <module name="employees" options="-parameters" />
       <module name="flow" options="-parameters" />
       <module name="interview" options="-parameters" />
-      <module name="modules" options="-parameters" />
+      <module name="model" options="-parameters" />
+      <module name="modules-parent" options="-parameters" />
       <module name="onlineChat" options="-parameters" />
       <module name="project" options="-parameters" />
       <module name="run" options="-parameters" />
