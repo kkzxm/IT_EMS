@@ -6,11 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="IT_EMS" />
+        <module name="sercrity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="8" />
+      <module name="employee" target="8" />
       <module name="IT_EMS" target="1.5" />
+      <module name="justDoIT" target="8" />
+      <module name="run" target="8" />
+      <module name="security" target="8" />
+      <module name="sercrity" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

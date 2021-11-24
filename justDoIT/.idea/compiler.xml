@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="security" />
+        <module name="conference" />
+        <module name="common" />
+        <module name="project" />
+        <module name="run" />
+        <module name="onlineChat" />
+        <module name="technology" />
+        <module name="employees" />
+        <module name="department" />
+        <module name="interview" />
+        <module name="modules" />
+        <module name="flow" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="conference" options="-parameters" />
+      <module name="department" options="-parameters" />
+      <module name="employees" options="-parameters" />
+      <module name="flow" options="-parameters" />
+      <module name="interview" options="-parameters" />
+      <module name="modules" options="-parameters" />
+      <module name="onlineChat" options="-parameters" />
+      <module name="project" options="-parameters" />
+      <module name="run" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="technology" options="-parameters" />
+    </option>
+  </component>
+</project>

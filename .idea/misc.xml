@@ -4,7 +4,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/justDoIT/sercrity/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/employee/pom.xml" />
+        <option value="$PROJECT_DIR$/run/pom.xml" />
+        <option value="$PROJECT_DIR$/security/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="corretto-1.8 (2)" project-jdk-type="JavaSDK">

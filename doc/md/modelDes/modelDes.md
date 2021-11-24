@@ -4,7 +4,10 @@
 
 
 2. [员工模块](detail/employee.md)
+   1. [员工薪资](detail/employee.md)
+   2. [员工职称管理](detail/employee.md)
 
+<br/>
 
 3. [项目模块](detail/project.md)
 
