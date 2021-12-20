@@ -2,17 +2,6 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/modules-parent/application/conference/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/modules-parent/application/department/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/modules-parent/application/employees/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/modules-parent/application/flow/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/modules-parent/application/interview/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/modules-parent/application/onlineChat/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/modules-parent/application/project/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/modules-parent/application/technology/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/modules-parent/model/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/run/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/security/src/main/java" charset="UTF-8" />
   </component>
 </project>

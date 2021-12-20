@@ -11,18 +11,20 @@
         <module name="conference" />
         <module name="common" />
         <module name="project" />
-        <module name="run" />
-        <module name="onlineChat" />
         <module name="model" />
+        <module name="onlineChat" />
         <module name="technology" />
-        <module name="employees" />
         <module name="department" />
+        <module name="employees" />
         <module name="interview" />
         <module name="flow" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api_service" target="8" />
+      <module name="commons" target="8" />
+      <module name="modules_parent" target="8" />
+      <module name="run" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -30,13 +32,14 @@
       <module name="api_service" options="-parameters" />
       <module name="application" options="-parameters" />
       <module name="common" options="-parameters" />
+      <module name="commons" options="-parameters" />
       <module name="conference" options="-parameters" />
       <module name="department" options="-parameters" />
       <module name="employees" options="-parameters" />
       <module name="flow" options="-parameters" />
       <module name="interview" options="-parameters" />
       <module name="model" options="-parameters" />
-      <module name="modules-parent" options="-parameters" />
+      <module name="modules_parent" options="-parameters" />
       <module name="onlineChat" options="-parameters" />
       <module name="project" options="-parameters" />
       <module name="run" options="-parameters" />

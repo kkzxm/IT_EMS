@@ -6,7 +6,7 @@
     <packaging>pom</packaging>
     <parent>
         <artifactId>justDoIT</artifactId>
-        <groupId>com.lingDream</groupId>
+        <groupId>com.lingDream.justDoIT</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -23,14 +23,11 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
     <dependencies>
         <dependency>
-            <groupId>com.lingDream</groupId>
+            <groupId>com.lingDream.justDoIT</groupId>
             <artifactId>common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
-
 </project>

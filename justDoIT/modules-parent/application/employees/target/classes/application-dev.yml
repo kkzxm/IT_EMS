@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/jdi_employees
+    username: root
+    password: "@123456ab"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#  main:
+#    web-application-type: none
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  level:
+    com.chz.mapper: debug

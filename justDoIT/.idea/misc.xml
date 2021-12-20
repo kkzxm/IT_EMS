@@ -5,13 +5,15 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/security/pom.xml" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/modules-parent/commons/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/modules-parent/api_service/pom.xml" />
+        <option value="$PROJECT_DIR$/modules_parent/commons/pom.xml" />
+        <option value="$PROJECT_DIR$/modules_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/run/pom.xml" />
       </set>
     </option>
   </component>
