@@ -1,0 +1,4 @@
+com\lingDream\justDoIT\controller\DepartmentController.class
+com\lingDream\justDoIT\mapper\DepartmentMapper.class
+com\lingDream\justDoIT\service\DepartmentService.class
+com\lingDream\justDoIT\DepartmentApplication.class
