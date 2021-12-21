@@ -7,6 +7,8 @@
         <groupId>com.lingDream.justDoIT</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <name>员工管理</name>
+    <description>包括员工入职/周期工资/离职等</description>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>employees</artifactId>

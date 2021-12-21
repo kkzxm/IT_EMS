@@ -1,4 +1,4 @@
 com\lingDream\justDoIT\controller\EmployeesController.class
 com\lingDream\justDoIT\mapper\EmployeesMapper.class
 com\lingDream\justDoIT\service\EmployeesService.class
-com\lingDream\justDoIT\JustEmployeesApplication.class
+com\lingDream\justDoIT\EmployeesApplication.class

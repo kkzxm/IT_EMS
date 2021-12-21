@@ -3,9 +3,11 @@ package com.lingDream.justDoIT.tool.root;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import com.lingDream.justDoIT.tool.result.Result;
 import com.lingDream.justDoIT.tool.result.ResultCode;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.Serializable;
 
@@ -23,7 +25,9 @@ public class ThereController<T> {
         this.COMMENT = COMMENT;
     }
 
-    public Result getPage(Integer thisPage, Integer pageSize, T entity) {
+    @GetMapping("/getPage")
+    public Result getPage(@RequestParam(defaultValue = "1") Integer thisPage,
+                          @RequestParam(defaultValue = "10") Integer pageSize, T entity) {
         return new Result(
                 ResultCode.SUCCESS,
                 service.page(

@@ -1,36 +1,40 @@
 <template>
   <div class="sell-left">
     <el-tree
-        :props="props"
-        :load="loadNode"
-        @node-click="loadClick"
-        lazy>
+        :props="leftTree.props"
+        :data="leftTree.data"
+        @node-click="loadClick">
     </el-tree>
   </div>
 </template>
 
 <script>
-import {API} from '@/api'
 
 export default {
   name: 'sell-left',
   props: ['setThisTagGroup', 'setThisTagId'],
   data() {
     return {
-      props: {
-        label: 'name',
-        children: 'children',
-        isLeaf: 'leaf'
-      },
+      leftTree: {
+        props: {
+          label: 'name',
+          children: 'children',
+          isLeaf: 'leaf'
+        },
+        data: [
+          {
+            name: "员工管理",
+            router: "employees"
+          },
+          {
+            name: "部门管理",
+            router: "department"
+          }
+        ]
+      }
     };
   },
   methods: {
-    loadNode(node, resolve) {
-      let params = node.data ? {id: node.data.id} : {id: 0};
-      API.menu.menuTree(params, (data) => {
-        resolve(data)
-      });
-    },
     loadClick(data) {
       if (data.router) {
         this.$router.push({name: data.router});

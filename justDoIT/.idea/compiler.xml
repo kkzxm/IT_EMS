@@ -7,16 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="security" />
         <module name="conference" />
         <module name="common" />
         <module name="project" />
-        <module name="model" />
         <module name="onlineChat" />
         <module name="technology" />
         <module name="department" />
         <module name="employees" />
         <module name="interview" />
+        <module name="JustDoITEurekaServer" />
         <module name="flow" />
       </profile>
     </annotationProcessing>
@@ -29,6 +28,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JustDoITEurekaServer" options="-parameters" />
       <module name="api_service" options="-parameters" />
       <module name="application" options="-parameters" />
       <module name="common" options="-parameters" />
@@ -38,12 +38,11 @@
       <module name="employees" options="-parameters" />
       <module name="flow" options="-parameters" />
       <module name="interview" options="-parameters" />
-      <module name="model" options="-parameters" />
       <module name="modules_parent" options="-parameters" />
       <module name="onlineChat" options="-parameters" />
       <module name="project" options="-parameters" />
       <module name="run" options="-parameters" />
-      <module name="security" options="-parameters" />
+      <module name="security" options="" />
       <module name="technology" options="-parameters" />
     </option>
   </component>

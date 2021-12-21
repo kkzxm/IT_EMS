@@ -1,20 +1,13 @@
 export default [
     {
-        path: "/sysmenu",
-        name: "sysmenu",
-        component: () => import("@/views/sysmenu/sysmenu")
+        path: "/employees",
+        name: "employees",
+        component: () => import("@/views/employees/employees")
     },
     {
-        path: "/api/apiInfo",
-        name: "apiInfo",
-        component: () => import ("@/views/api/apiInfo")
-    },
-    {
-        path: "/api/apiGroup",
-        name: "apiGroup",
-        component: () => import("@/views/api/ApiGroup")
-
+        path: "/department",
+        name: "department",
+        component: () => import("@/views/department/department")
     }
+
 ]
-
-

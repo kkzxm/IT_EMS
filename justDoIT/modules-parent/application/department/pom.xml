@@ -7,6 +7,8 @@
         <groupId>com.lingDream.justDoIT</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <name>部门管理</name>
+    <description>部门创建等</description>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>department</artifactId>

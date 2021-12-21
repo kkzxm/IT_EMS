@@ -4,7 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f566b10e-0c81-4369-a447-73246812db32" name="变更" comment="开始 员工后台" />
+    <list default="true" id="f566b10e-0c81-4369-a447-73246812db32" name="变更" comment="开始 员工后台">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/interceptors/Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/config/AllBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/config/OBSField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/entity/department/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/DepartmentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/mapper/DepartmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/JustDoITEurekaServer/src/main/java/com/lingDream/justDoIT/JustDoITEurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/JustDoITEurekaServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95e16353-07a8-4326-8ea5-0da36a2e91cc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/95e16353-07a8-4326-8ea5-0da36a2e91cc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a584d689-eab3-427a-ada6-8fa8d9f7b828.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a584d689-eab3-427a-ada6-8fa8d9f7b828.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/tool/root/ThereController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/tool/root/ThereController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/department/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/department/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/JustEmployeesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/EmployeesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/controller/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/controller/EmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/JustDoITEurekaServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/api/api_user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/api/api_user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/api/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/api/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/api/methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/api/methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/components/contrl/sell-left.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/components/contrl/sell-left.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/router/controlChildren.js" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/router/controlChildren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/api/ApiGroup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/views/employees/employees.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/api/apiInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/api/apiManager.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/views/department/department.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/dataBase/catalog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/sysmenu/sysmenu.vue" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +71,9 @@
         <option value="new-activiti-diagram.bpmn20" />
         <option value="new-flowable-diagram.bpmn20" />
         <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
@@ -54,10 +106,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="SELECTIVE" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIt" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules-parent/application/department/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,19 +127,22 @@
       <recent name="com.lingDream.justDoIT.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent\application\department\src\main\resources" />
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT\common\src\main\java\com\lingDream\justDoIT" />
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT\common\src\main\java\com\lingDream\justDoIT\tool\root" />
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent\application\employees\src\main\resources" />
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent\commons" />
-      <recent name="D:\workspace\work\self\IT_EMS\justDoIT\employeeTest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\work\self\IT_EMS\justDoIT\security" />
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT" />
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent" />
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent\application" />
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lingDream.justDoIT.utils" />
+      <recent name="com.lingDream.interceptors" />
       <recent name="com.lingDream.justDoIT.config" />
     </key>
   </component>
@@ -97,8 +153,21 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="JustEmployeesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.DepartmentApplication">
+    <configuration name="DepartmentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="department" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingDream.justDoIT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingDream.justDoIT.DepartmentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="employees" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +175,29 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingDream.justDoIT.JustEmployeesApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingDream.justDoIT.EmployeesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JustDoITEurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="JustDoITEurekaServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingDream.justDoIT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingDream.justDoIT.JustDoITEurekaServer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.JustEmployeesApplication" />
+        <item itemvalue="Spring Boot.EmployeesApplication" />
+        <item itemvalue="Spring Boot.DepartmentApplication" />
+        <item itemvalue="Spring Boot.JustDoITEurekaServer" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +224,12 @@
       <workItem from="1639988850831" duration="7193000" />
       <workItem from="1639996380185" duration="2197000" />
       <workItem from="1640003776900" duration="967000" />
-      <workItem from="1640004769097" duration="692000" />
+      <workItem from="1640004769097" duration="2045000" />
+      <workItem from="1640007063366" duration="4269000" />
+      <workItem from="1640014723660" duration="65000" />
+      <workItem from="1640049802699" duration="8497000" />
+      <workItem from="1640073938723" duration="1574000" />
+      <workItem from="1640091869918" duration="1271000" />
     </task>
     <task id="LOCAL-00001" summary="开始 员工后台">
       <created>1640005404338</created>
@@ -149,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640005404338</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="开始 员工后台">
+      <created>1640005527462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640005527462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

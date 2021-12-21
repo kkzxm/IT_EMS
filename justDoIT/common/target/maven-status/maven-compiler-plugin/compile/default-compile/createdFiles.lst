@@ -1,6 +1,10 @@
 com\lingDream\justDoIT\tool\result\Result.class
-com\lingDream\justDoIT\tool\result\ResultCode.class
+com\lingDream\justDoIT\config\OBSField.class
 com\lingDream\justDoIT\entity\employee\Employees.class
 com\lingDream\justDoIT\tool\root\ThereController.class
-com\lingDream\celerityIT\config\MybatisPlusConfig.class
+com\lingDream\justDoIT\entity\department\Department.class
+com\lingDream\interceptors\Interceptor.class
 com\lingDream\justDoIT\tool\root\ThereMapper.class
+com\lingDream\justDoIT\tool\result\ResultCode.class
+com\lingDream\justDoIT\utils\StringUtils.class
+com\lingDream\justDoIT\config\AllBean.class

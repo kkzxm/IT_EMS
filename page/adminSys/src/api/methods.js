@@ -16,13 +16,7 @@ export const DoAJAX = (method, url, params, successFun, errFun, flag) => {
     return axios[method](`${base}${url}`, params).then(res => {
         let data = res.data;
         if (data.success) {
-            successFun(data.data);
-            ElMessage({
-                showClose: true,
-                message: data.message,
-                duration: 1000,
-                type: 'success',
-            })
+            successFun(data);
         } else {
             if (flag) {
                 ElMessage({
@@ -47,16 +41,20 @@ export const DoAJAX = (method, url, params, successFun, errFun, flag) => {
 
 export const POST = (url, params, successFun, errFun) => {
     params.timer = new Date().getTime();
-    return DoAJAX("post", `${url}`, params, successFun, errFun)
+    let urlPar = new URLSearchParams();
+    for (let paramsKey in params) {
+        urlPar.append(paramsKey, params[paramsKey])
+    }
+    return DoAJAX("post", `${url}`, urlPar, successFun, errFun)
 }
 /*
 get
 从服务器端获取数据，请求body在地址栏上
 用于获取资源，是幂等的，无副作用
  */
-export const GET = (url, params, successFun, errFun) => {
+export const GET = (url, params, successFun, errFun, flag) => {
     params.timer = new Date().getTime();
-    return DoAJAX("get", `${url}`, {params: params}, successFun, errFun)
+    return DoAJAX("get", `${url}`, {params: params}, successFun, errFun, flag)
 }
 
 /*

@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @CreateDate: 2021/12/20 0020 18:36
  */
 @SpringBootApplication
-public class JustEmployeesApplication {
+public class EmployeesApplication {
     public static void main(String[] args) {
-        SpringApplication.run(JustEmployeesApplication.class, args);
+        SpringApplication.run(EmployeesApplication.class, args);
     }
 }
