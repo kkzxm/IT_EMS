@@ -5,7 +5,6 @@ import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.client.RestTemplate;
 
 /**
  * @Author: 酷酷宅小明
@@ -13,13 +12,6 @@ import org.springframework.web.client.RestTemplate;
  */
 @Configuration
 public class AllBean {
-    /**
-     * 服务器远程调用
-     */
-    @Bean
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
 
     /**
      * mybatis plus 分页插件

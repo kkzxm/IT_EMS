@@ -1,6 +1,6 @@
 package com.lingDream.justDoIT.mapper;
 
-import com.lingDream.justDoIT.entity.department.Department;
+import com.LingDream.justDoIT.entity.department.Department;
 import com.lingDream.justDoIT.tool.root.ThereMapper;
 import org.apache.ibatis.annotations.Mapper;
 

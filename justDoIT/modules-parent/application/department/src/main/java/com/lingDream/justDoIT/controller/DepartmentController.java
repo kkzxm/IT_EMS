@@ -1,7 +1,7 @@
 package com.lingDream.justDoIT.controller;
 
+import com.LingDream.justDoIT.entity.department.Department;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.lingDream.justDoIT.entity.department.Department;
 import com.lingDream.justDoIT.tool.result.Result;
 import com.lingDream.justDoIT.tool.root.ThereController;
 import org.springframework.stereotype.Controller;
@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import static com.lingDream.justDoIT.utils.StringUtils.isEmptyByTrim;
 
 /**
  * @Author: 酷酷宅小明
@@ -25,22 +23,20 @@ public class DepartmentController extends ThereController<Department> {
     }
 
     /**
-     * 添加员工
+     * 添加或修改部门
      */
     @PostMapping("/addOrUpdate")
     public Result save(Department department) {
-        if (isEmptyByTrim(department.getId())) {
-            return super.save(department);
-        } else {
-            return super.updateById(department);
-        }
+        return super.addOrUpdate(department);
     }
 
     /**
-     * 删除员工
+     * 删除部门
      */
     @DeleteMapping("/del")
     public Result del(String id) {
         return super.removeById(id);
     }
+
+
 }

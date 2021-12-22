@@ -15,6 +15,8 @@
 
     <modules>
         <module>application</module>
+        <module>feignClients</module>
+        <module>entity</module>
     </modules>
 
 
@@ -22,16 +24,4 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>com.lingDream.justDoIT</groupId>
-            <artifactId>common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-
-    </dependencies>
 </project>

@@ -1,7 +1,7 @@
 package com.lingDream.justDoIT.service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.lingDream.justDoIT.entity.department.Department;
+import com.LingDream.justDoIT.entity.department.Department;
 import com.lingDream.justDoIT.mapper.DepartmentMapper;
 import org.springframework.stereotype.Service;
 

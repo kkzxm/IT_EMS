@@ -4,7 +4,10 @@
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/modules-parent/application/department/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/modules-parent/application/employees/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/security/JustDoITEurekaServer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/security/JustDoITEurekaServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules-parent/application/project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules-parent/entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules-parent/feignClients/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/gateway/src/main/resources" charset="UTF-8" />
   </component>
 </project>

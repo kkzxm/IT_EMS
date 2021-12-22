@@ -4,58 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f566b10e-0c81-4369-a447-73246812db32" name="变更" comment="开始 员工后台">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/interceptors/Interceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/config/AllBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/config/OBSField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/entity/department/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/DepartmentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/mapper/DepartmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/JustDoITEurekaServer/src/main/java/com/lingDream/justDoIT/JustDoITEurekaServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/JustDoITEurekaServer/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="f566b10e-0c81-4369-a447-73246812db32" name="变更" comment="前端与eureka服务注册1">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/tool/root/ThereEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/project/src/main/java/com/lingDream/justDoIT/Controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/project/src/main/java/com/lingDream/justDoIT/ProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/project/src/main/java/com/lingDream/justDoIT/mapper/ProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/application/project/src/main/java/com/lingDream/justDoIT/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/entity/src/main/java/com/LingDream/justDoIT/entity/project/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/feignClients/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules-parent/feignClients/src/main/java/com/lingDream/justDoIT/feignClients/employee/EmployeesClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/gateway/src/main/java/com/lingDream/justDoIT/getway/JustDoITGetWayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page/adminSys/src/views/project/project.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/95e16353-07a8-4326-8ea5-0da36a2e91cc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/95e16353-07a8-4326-8ea5-0da36a2e91cc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a584d689-eab3-427a-ada6-8fa8d9f7b828.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a584d689-eab3-427a-ada6-8fa8d9f7b828.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/config/AllBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/config/AllBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/config/OBSField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/entity/department/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/entity/src/main/java/com/LingDream/justDoIT/entity/department/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/entity/employee/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/entity/src/main/java/com/LingDream/justDoIT/entity/employee/Employees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/tool/root/ThereController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lingDream/justDoIT/tool/root/ThereController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-parent/application/department/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/department/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/JustEmployeesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/EmployeesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/mapper/DepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/java/com/lingDream/justDoIT/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/department/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/department/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/department/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/department/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/department/target/classes/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/controller/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/controller/EmployeesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules-parent/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/JustDoITEurekaServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/mapper/EmployeesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/mapper/EmployeesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/service/EmployeesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIT/service/EmployeesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/employees/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/employees/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules-parent/application/project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/project/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/JustDoITEurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/JustDoITEurekaServer/src/main/java/com/lingDream/justDoIT/JustDoITEurekaServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/JustDoITEurekaServer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/JustDoITEurekaServer/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/JustDoITEurekaServer/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/JustDoITEurekaServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/JustDoITEurekaServer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/JustDoITEurekaServer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/project/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/JustDoITEurekaServer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/modules-parent/application/project/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../page/adminSys/src/api/api_user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/api/api_user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../page/adminSys/src/api/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/api/env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/api/methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/api/methods.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../page/adminSys/src/components/contrl/sell-left.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/components/contrl/sell-left.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../page/adminSys/src/router/controlChildren.js" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/router/controlChildren.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/api/ApiGroup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/views/employees/employees.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/api/apiInfo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/api/apiManager.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/views/department/department.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/dataBase/catalog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/sysmenu/sysmenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/src/views/department/department.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/src/views/department/department.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/adminSys/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../page/adminSys/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +85,8 @@
         <option value="new-flowable-diagram.bpmn20" />
         <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -109,8 +122,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="SELECTIVE" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/modules-parent/application/employees/src/main/java/com/lingDream/justDoIt" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules-parent/application/department/src/main/resources" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/modules-parent/feignClients/src/main/java/com/lingDream/justDoIT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules-parent/application/project/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -127,11 +140,11 @@
       <recent name="com.lingDream.justDoIT.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent\application\project\src\main\resources" />
+      <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent\entity\src\main\resources" />
+      <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent\application\employees\src\main\resources" />
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent\application\department\src\main\resources" />
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT\common\src\main\java\com\lingDream\justDoIT" />
-      <recent name="D:\workspace\work\self\IT_EMS\justDoIT\common\src\main\java\com\lingDream\justDoIT\tool\root" />
-      <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent\application\employees\src\main\resources" />
-      <recent name="D:\workspace\work\self\IT_EMS\justDoIT\modules-parent\commons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\work\self\IT_EMS\justDoIT\security" />
@@ -153,7 +166,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DepartmentApplication">
+  <component name="RunManager" selected="Spring Boot.ProjectApplication">
     <configuration name="DepartmentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="department" />
       <extension name="coverage">
@@ -180,24 +193,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JustDoITEurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="JustDoITEurekaServer" />
+    <configuration name="JustDoITGetWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingDream.justDoIT.getway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingDream.justDoIT.getway.JustDoITGetWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lingDream.justDoIT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingDream.justDoIT.JustDoITEurekaServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingDream.justDoIT.ProjectApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EmployeesApplication" />
+      <item itemvalue="Spring Boot.DepartmentApplication" />
+      <item itemvalue="Spring Boot.JustDoITGetWayApplication" />
+      <item itemvalue="Spring Boot.ProjectApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.JustDoITGetWayApplication" />
+        <item itemvalue="Spring Boot.ProjectApplication" />
         <item itemvalue="Spring Boot.EmployeesApplication" />
         <item itemvalue="Spring Boot.DepartmentApplication" />
-        <item itemvalue="Spring Boot.JustDoITEurekaServer" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +262,8 @@
       <workItem from="1640014723660" duration="65000" />
       <workItem from="1640049802699" duration="8497000" />
       <workItem from="1640073938723" duration="1574000" />
-      <workItem from="1640091869918" duration="1271000" />
+      <workItem from="1640091869918" duration="14375000" />
+      <workItem from="1640145178717" duration="17941000" />
     </task>
     <task id="LOCAL-00001" summary="开始 员工后台">
       <created>1640005404338</created>
@@ -245,7 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640005527462</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="前端与eureka服务注册">
+      <created>1640093313696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640093313696</updated>
+    </task>
+    <task id="LOCAL-00004" summary="前端与eureka服务注册1">
+      <created>1640093354539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640093354539</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +313,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="开始 员工后台" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始 员工后台" />
+    <MESSAGE value="前端与eureka服务注册" />
+    <MESSAGE value="前端与eureka服务注册1" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端与eureka服务注册1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/justDoIT$EmployeesApplication.ic" NAME="EmployeesApplication 覆盖结果" MODIFIED="1639995885584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

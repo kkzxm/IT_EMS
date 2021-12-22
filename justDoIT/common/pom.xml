@@ -9,6 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <name>公共管理模块</name>
+    <description>主要放些公共的代码,配置的常用Bean等等,可以直接供给其它项目使用</description>
     <artifactId>common</artifactId>
 
     <properties>
@@ -33,8 +35,11 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.4.3.4</version>
         </dependency>
-
         <!--endregion-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
     </dependencies>
 
 

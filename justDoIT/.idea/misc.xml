@@ -7,7 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/modules-parent/commons/pom.xml" />
         <option value="$PROJECT_DIR$/modules-parent/JustDoITEurekaServer/pom.xml" />
-        <option value="$PROJECT_DIR$/security/JustDoITEurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/modules-parent/feignClients/pom.xml" />
+        <option value="$PROJECT_DIR$/security/gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -29,6 +29,10 @@ export default {
           {
             name: "部门管理",
             router: "department"
+          },
+          {
+            name: "项目管理",
+            router: "project"
           }
         ]
       }

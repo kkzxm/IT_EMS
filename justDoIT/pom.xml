@@ -15,7 +15,8 @@
     <groupId>com.lingDream.justDoIT</groupId>
     <artifactId>justDoIT</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <name>顶级父模块</name>
+    <description>顶级父模块,管理整个项目</description>
     <modules>
         <module>security</module>
         <module>common</module>
@@ -29,44 +30,12 @@
     </properties>
 
     <dependencies>
-
-        <!--region spring boot-->
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-autoconfigure</artifactId>
-        </dependency>
-        <!--endregion-->
-
         <!--region 小插件-->
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-
-        <!--region 安全-->
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-spring</artifactId>
-            <version>1.7.1</version>
-        </dependency>
-        <!--endregion-->
 
         <!--热部署-->
         <dependency>
@@ -77,10 +46,19 @@
     </dependencies>
     <dependencyManagement>
         <dependencies>
+            <!--springCloud-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Hoxton.SR10</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--nacos的管理依赖-->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.2.5.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

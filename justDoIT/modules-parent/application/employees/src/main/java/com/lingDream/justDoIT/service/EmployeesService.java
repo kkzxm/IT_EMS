@@ -1,8 +1,7 @@
 package com.lingDream.justDoIT.service;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.LingDream.justDoIT.entity.employee.Employees;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.lingDream.justDoIT.entity.employee.Employees;
 import com.lingDream.justDoIT.mapper.EmployeesMapper;
 import org.springframework.stereotype.Service;
 

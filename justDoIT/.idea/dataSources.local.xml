@@ -14,6 +14,7 @@
           <node kind="schema">
             <name qname="jdi_employees" />
             <name qname="jdi_department" />
+            <name qname="jdi_project" />
           </node>
         </introspection-scope>
       </schema-mapping>

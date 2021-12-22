@@ -1,7 +1,6 @@
 package com.lingDream.justDoIT.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.lingDream.justDoIT.entity.employee.Employees;
+import com.LingDream.justDoIT.entity.employee.Employees;
 import com.lingDream.justDoIT.tool.root.ThereMapper;
 import org.apache.ibatis.annotations.Mapper;
 

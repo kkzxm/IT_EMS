@@ -11,12 +11,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.Serializable;
 
+import static com.lingDream.justDoIT.utils.StringUtils.isEmptyByTrim;
+
 /**
  * @Author: 酷酷宅小明
  * @CreateTime: 2021-06-09 10:05
  */
 
-public class ThereController<T> {
+public class ThereController<T extends ThereEntity> {
     protected IService<T> service;
     private final String COMMENT;
 
@@ -69,5 +71,13 @@ public class ThereController<T> {
             result = new Result(ResultCode.FAIL);
         }
         return result;
+    }
+
+    protected Result addOrUpdate(T t) {
+        if (isEmptyByTrim(t.getId())) {
+            return save(t);
+        } else {
+            return updateById(t);
+        }
     }
 }
